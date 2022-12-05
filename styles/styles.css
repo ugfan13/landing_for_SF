@@ -88,7 +88,9 @@ body * {
 
 .hero-container {
     position: relative;
-    z-index: 1;
+    height: 83px;
+    width: 676px;
+    z-index: 1;  
 }
 
 .title {
@@ -100,4 +102,33 @@ body * {
     line-height: 53px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+span {
+    color: #E3B873;
+}
+
+.main-head {
+    position: relative;    
+    right: 134px;
+}
+
+.first-hero {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    padding: 19px 41px;   
+}
+
+.hero-button2 {
+    padding: 19px 22px;
+    margin-left: 20px;
+    background: none;
+    border: 1px solid #FFFFFF;
 }
