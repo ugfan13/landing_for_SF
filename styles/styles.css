@@ -1,6 +1,15 @@
-.body {
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body {
     margin: 0;
     font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
 }
 
 .container {
@@ -46,4 +55,38 @@
 .header-navigation_item a {
     text-decoration: none;
     color: white;
+}
+
+.hero {
+    background-image: url('../images/image1.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
