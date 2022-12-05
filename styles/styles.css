@@ -23,7 +23,7 @@ body * {
 }
 
 .container {
-    max-width: 1438px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -40,7 +40,10 @@ body * {
 }
 
 .header {
-    background-color: black;    
+    background-color: black;  
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 
 .header-content {
@@ -48,6 +51,7 @@ body * {
     justify-content: space-between;
     height: 83px;
     align-items: center;
+    
 }
 
 .logo {
@@ -131,4 +135,11 @@ span {
     margin-left: 20px;
     background: none;
     border: 1px solid #FFFFFF;
+}
+
+.projects {
+    background-color: black;
+    position: relative;
+    height: 1074px;
+    display: flex;
 }
