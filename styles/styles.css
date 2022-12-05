@@ -1,11 +1,21 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: 'Nunito Sans';
+    src: url('../fonts/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito Sans Italik';
+    src: url('../fonts/NunitoSans-Italic.ttf')
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    src: url('../fonts/YesevaOne-Regular.ttf');
 }
 
 body {
     margin: 0;
-    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
 }
 
 body * {
@@ -26,6 +36,7 @@ body * {
   padding: 13px 33px;
   color: white;
   text-transform: uppercase;
+  font-family: 'Nunito Sans Italik', Arial, Helvetica, sans-serif;
 }
 
 .header {
