@@ -212,4 +212,20 @@ span {
 .project-options {
     display: flex;
     margin-top: 42px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
+
+.option:nth-child(odd) {
+    width: 161px;
+    margin-right: 34px;
+    margin-top: 34px;
+}
+
+.option:nth-child(even) {
+    width: 213px;
+    margin-top: 34px;
+}
+
+
+
