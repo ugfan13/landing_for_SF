@@ -108,6 +108,28 @@ body * {
     color: #FFFFFF;
 }
 
+.title1 {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title2 {
+    margin: 0;
+    font-family: 'Yeseva One' 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
 span {
     color: #E3B873;
 }
@@ -117,7 +139,7 @@ span {
     right: 134px;
 }
 
-.first-hero {
+.text-hero {
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
     font-style: normal;
     font-weight: 400;
