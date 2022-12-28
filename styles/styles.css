@@ -113,10 +113,10 @@ body * {
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 53px;
+    font-size: 27px;
+    line-height: 37px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #E3B873;
 }
 
 .title2 {
@@ -128,6 +128,17 @@ body * {
     line-height: 19px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
+}
+
+.title3 {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
 }
 
 span {
@@ -148,6 +159,24 @@ span {
     color: #FFFFFF;
 }
 
+.text-project {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.text-options {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
 .hero-button {
     padding: 19px 41px;   
 }
@@ -164,4 +193,23 @@ span {
     position: relative;
     height: 1074px;
     display: flex;
+}
+
+.projects-description {
+    position: relative;
+    margin: 50px;
+    width: 442px;
+    left: 134px;
+    top: 176px;
+}
+
+.project-title {
+    width: 253px;
+    height: 66px;
+    margin-bottom: 34px;
+}
+
+.project-options {
+    display: flex;
+    margin-top: 42px;
 }
