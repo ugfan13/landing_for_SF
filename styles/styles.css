@@ -120,7 +120,7 @@ body * {
 }
 
 .title2 {
-    margin: 0;
+    margin-right: 60px;
     font-family: 'Yeseva One' 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
@@ -192,12 +192,18 @@ span {
     background-color: black;
     position: relative;
     height: 1074px;
-    display: flex;
+    display: flex; 
+    align-items: flex-start;
+    flex-wrap: wrap;  
+    /* grid-template-columns: 449px 679px ;
+    grid-template-rows: auto;
+    grid-gap: 50px;  */
 }
 
 .projects-description {
     position: relative;
-    margin: 50px;
+    /* margin-right: 50px; */
+    padding-right: 50px;
     width: 442px;
     left: 134px;
     top: 176px;
@@ -225,6 +231,14 @@ span {
 .option:nth-child(even) {
     width: 213px;
     margin-top: 34px;
+}
+
+.project-photo {
+    position: relative;
+    display: flex;
+    top: 176px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 
