@@ -141,6 +141,17 @@ body * {
     color: #E3B873;
 }
 
+.title4 {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 span {
     color: #E3B873;
 }
@@ -194,11 +205,13 @@ span {
     height: 1074px;
     display: grid; 
     grid-template-columns: 656px 679px;
-    grid-template-rows: 123px 46px 482px;
+    grid-template-rows: 123px 60px 482px 118px 40px;
     grid-template-areas: 
     "F A"
     "F B"
-    "C D";
+    "C D"
+    "E E"
+    "G G";
 }
 
 .projects-description {
@@ -216,7 +229,7 @@ span {
 
 .project-options {
     display: flex;
-    margin-top: 42px;
+    margin-top: 28px;
     align-items: flex-start;
     flex-wrap: wrap;
 }
@@ -259,5 +272,50 @@ span {
 
 .project-pointer{
     grid-area: B;
+    margin-top: 7px;
 }
 
+.lines_strokes {
+    display: flex;
+    margin-top: 41px;
+}
+
+.vektor-line {
+    margin: -7px;
+}
+
+.vektor-circle1 {
+    margin-left: 30px;
+    margin-right: 18px;
+}
+
+.vektor-circle3 {
+    margin-left: 18px;
+    margin-right: 30px;
+}
+
+.Monitoring {
+    grid-area: E;
+    margin-top: 92px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+.Camera {
+    grid-area: G;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.CameraImage {
+    margin: 10px;
+}
+
+.CameraLine {
+    height: 2px;
+    width: 32px;
+}
