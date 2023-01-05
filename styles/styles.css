@@ -201,8 +201,12 @@ span {
 
 .projects {
     background-color: black;
-    position: relative;
+    background-size: cover;
     height: 1074px;
+    
+}
+
+.projects-contant {
     display: grid; 
     grid-template-columns: 656px 679px;
     grid-template-rows: 123px 60px 482px 118px 40px;
@@ -300,7 +304,6 @@ span {
     display: flex;
     position: relative;
     justify-content: center;
-
 }
 
 .Camera {
