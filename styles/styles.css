@@ -152,6 +152,17 @@ body * {
     color: #FFFFFF;
 }
 
+.text-type {
+    margin-top: 76px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
 span {
     color: #E3B873;
 }
@@ -195,6 +206,16 @@ span {
     font-size: 18px;
     line-height: 36px;
     color: rgba(54, 54, 54, 1);
+    text-align: center;
+}
+
+.PersonalData-text {
+    margin-left: 9px;    
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;    
     text-align: center;
 }
 
@@ -391,23 +412,35 @@ span {
 
  .insert-name {
     display: grid;
-    margin-top: 91px;
-    grid-template-columns: 231px 231px 200px;
+    margin-top: 93px;
+    grid-template-columns: 231px 58px 231px 49px 200px;
     grid-template-rows: 19px 25px 1px;
     grid-template-areas: 
-    "AA AB AC"
-    "BA BB AC"
-    "CA CB AC"
+    "AA A0 AB B0 AC"
+    "BA A0 BB B0 AC"
+    "CA A0 CB B0 AC"
  }
 
  .name {
     grid-area: AA;
     margin: 0;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5); 
  }
 
  .WhatName {
     grid-area: BA;
     margin: 0;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(54, 54, 54, 1);
  }
 
  .NameLine1 {
@@ -418,11 +451,23 @@ span {
  .phone {
     grid-area: AB;
     margin: 0;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
  }
 
  .WhatPhone {
     grid-area: BB;
     margin: 0;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(54, 54, 54, 1);
  }
 
  .NameLine2 {
@@ -432,4 +477,62 @@ span {
 
  .NameButton {
     grid-area: AC;
- }
+    background: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans Italik', Arial, Helvetica, sans-serif;
+}
+
+.A0 {
+    grid-area: A0;
+    margin: 0;
+}
+
+.B0 {
+    grid-area: B0;
+    margin: 0;
+}
+
+.PersonalData {
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+}
+
+.apply {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apply1 {
+    position: relative;
+    z-index: 2; 
+}
+
+.apply2 {
+    position: absolute;
+    z-index: 3; 
+}
+
+.Repair {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.RepairImage {
+    margin: 10px;
+}
+
+.RepairLine {
+    height: 2px;
+    width: 32px;
+}
