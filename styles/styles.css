@@ -262,8 +262,7 @@ span {
 .projects {
     background-color: black;
     background-size: cover;
-    height: 1074px;
-    
+    height: 1074px;    
 }
 
 .projects-contant {
@@ -599,7 +598,7 @@ span {
 }
 
 .common {
-    height: 707px;
+    height: 920px;
 }
 
 
@@ -820,4 +819,54 @@ span {
     /* margin-right: 135px; */
     margin-left: 25px;
     /* margin-top: 25px; */
+}
+
+.fantacy {
+    background-image: url('../images/image8.jpg');
+    background-position: cover;
+    height: 864px;
+    position: relative;
+}
+
+.FantacyMain {
+    position: relative;
+    z-index: 1;
+    /* background-color: #000000; */
+    /* background-color: rgba(0, 0, 0, .7) */
+}
+
+.fantacy-overlay {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.FantacyTextBlock {
+    padding-top: 137px;
+    padding-left: 99px;
+    width: 510px;
+}
+
+.titleFantacy {    
+    font-size: 27px;
+    line-height: 37px;
+    color: rgba(227, 184, 115, 1);
+    padding-right: 100px;
+   
+}
+
+.FantasyText {
+    margin: 0;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 38px;    
+}
+
+.FantasyText:first-of-type {
+    color: rgba(227, 184, 115, 1);
+    margin-top: 47px;
 }
