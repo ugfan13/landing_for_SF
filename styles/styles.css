@@ -183,6 +183,15 @@ span {
     right: 134px;
 }
 
+.text {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
 .text-hero {
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
     font-style: normal;
@@ -587,4 +596,167 @@ span {
     line-height: 25px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.common {
+    height: 707px;
+}
+
+
+.common-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 59px;
+}
+
+.common-left {
+    background-image: url('../images/image7.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+.common-text-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 51px;
+}
+
+.numbersButton {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 50%;
+    outline: 0;
+    border: 8px solid white;
+    padding: 13px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.common-text {
+    width: 320px;
+    margin-left: 21px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.common-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 131px;
+    background-color: #000000;
+    width: 506px;
+    height: 509px;
+}
+
+.common-right-text {
+    font-size: 18px;
+    line-height: 26px;
+    width: 297px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    margin-top: 28px;
+    
+    align-self: center;
+}
+
+.insert-name-com {
+    margin-left: 49px;
+ }
+
+ .name-com {
+    margin: 0;
+    margin-top: 25px;    
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);    
+ }
+
+ .WhatName-com {    
+    margin: 0;
+    font-size: 14px;
+    line-height: 23px;   
+ }
+
+ .NameLine-com {    
+    margin: 0;
+ }
+
+ .phone-com {
+    margin: 0;
+    margin-top: 42px;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+ }
+
+ .WhatPhone-com {    
+    margin: 0;    
+    font-size: 14px;
+    line-height: 22px;    
+ }
+
+  .email-com {
+    margin: 0;
+    margin-top: 42px;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+ }
+
+ .WhatEmail-com {    
+    margin: 0;    
+    font-size: 14px;
+    line-height: 22px;    
+ }
+
+ .NameButton-com {
+    background: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans Italik', Arial, Helvetica, sans-serif;
+    align-self: flex-end;
+    margin-right: 49px;
+}
+
+.PersonalData-com {
+    display: flex;    
+    margin-top: 0;
+}
+
+.apply-com {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apply1-com {
+    position: relative;
+    z-index: 2; 
+}
+
+.apply2-com {
+    position: absolute;
+    z-index: 3; 
+}
+
+.PersonalData-text-com {
+    margin-left: 9px; 
+    font-size: 14px;
+    line-height: 22px;
 }
