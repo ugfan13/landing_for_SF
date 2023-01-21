@@ -612,15 +612,27 @@ span {
 
 .common-left {
     background-image: url('../images/image7.jpg');
+    background-position: right;
     display: flex;
     flex-direction: column;
+    width: 1006px;
+    height: 645px;
+    margin-left: -303px;
+    margin-top: -50px;
+    position: relative;
+    z-index: -1;
+}
+
+.common-left-container {
+    margin-top: 77px;
+    margin-left: 556px;
 }
 
 .common-text-block {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    margin: 51px;
+    align-items: center;    
+    margin-top: 51px;
 }
 
 .numbersButton {
@@ -664,8 +676,7 @@ span {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0;
-    margin-top: 28px;
-    
+    margin-top: 28px;    
     align-self: center;
 }
 
@@ -759,4 +770,54 @@ span {
     margin-left: 9px; 
     font-size: 14px;
     line-height: 22px;
+}
+
+.pig {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 135px;
+    /* margin-left: 25px; */
+    margin-top: 20px;
+}
+
+.PigPicture {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PigEllipse {
+    position: relative;
+    z-index: 2;
+}
+
+.PigPig {
+    position: absolute;
+    z-index: 3; 
+    margin-bottom: 20px;
+}
+
+.PigDollar {
+    position: absolute;
+    z-index: 3; 
+    margin-bottom: 20px;
+}
+
+.PigSmile {
+    position: absolute;
+    z-index: 3;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.PigText {
+    font-size: 18px;
+    line-height: 26px; 
+    color: rgba(227, 184, 115, 1);
+    width: 344px;
+    padding-right: 120px;
+    /* margin-right: 135px; */
+    margin-left: 25px;
+    /* margin-top: 25px; */
 }
