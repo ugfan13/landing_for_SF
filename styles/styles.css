@@ -831,6 +831,8 @@ span {
 .FantacyMain {
     position: relative;
     z-index: 1;
+    display: flex;
+    align-items: center;
     /* background-color: #000000; */
     /* background-color: rgba(0, 0, 0, .7) */
 }
@@ -849,6 +851,7 @@ span {
     padding-top: 137px;
     padding-left: 99px;
     width: 510px;
+    margin-right: 77px;
 }
 
 .titleFantacy {    
@@ -869,4 +872,73 @@ span {
 .FantasyText:first-of-type {
     color: rgba(227, 184, 115, 1);
     margin-top: 47px;
+}
+
+.FantacyPhotoBlock {
+    display: grid;
+    margin-top: -112px;
+    grid-template-columns: 354px 43px 354px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "F9A F9B F9C"
+    "F9A2 F9B F9C"
+    "F9A2 F9B F9C2"
+    "F9A2 F9B F9C3"
+    "F9A3 F9B F9C3"
+    "F9A4 F9B F9C3"
+    "F9A4 F9B F9C4";
+}
+
+.F9A {
+    grid-area: F9A;
+    height: 71px;
+    width: 354px;
+}
+
+.FantacyPhoto1 {
+    grid-area: F9A2;
+    height: 557px;
+    width: 354px;
+}
+
+.F9A3 {
+    grid-area: F9A3;
+    height: 39px;
+    width: 354px;
+}
+
+.FantacyPhoto2 {
+    grid-area: F9A4;
+    height: 349px;
+    width: 354px;
+}
+
+.F9B {
+    grid-area: F9B;
+    height: 1017px;
+    width: 43px;
+}
+
+.FantacyPhoto3 {
+    grid-area: F9C;
+    height: 275px;
+    width: 354px;
+}
+
+.F9C2 {
+    grid-area: F9C2;
+    height: 39px;
+    width: 354px;
+}
+
+.FantacyPhoto4 {
+    grid-area: F9C3;
+    height: 624px;
+    width: 354px;
+}
+
+.F9C4 {
+    grid-area: F9C4;
+    /* height: 39px; */
+    width: 354px;
 }
