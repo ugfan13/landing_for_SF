@@ -50,8 +50,7 @@ body * {
     display: flex;
     justify-content: space-between;
     height: 83px;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .logo {
@@ -274,8 +273,7 @@ span {
     "F B"
     "C D"
     "E E"
-    "G G";
-    /* align-items: center; */
+    "G G";    
 }
 
 .projects-description {
@@ -313,7 +311,6 @@ span {
     position: relative;
     top: 107px;
     padding: 0px;
-
     grid-area: A;
     display: flex;
     align-items: flex-start;
@@ -601,7 +598,6 @@ span {
     height: 920px;
 }
 
-
 .common-block {
     display: flex;
     align-items: center;
@@ -774,15 +770,21 @@ span {
 .pig {
     display: flex;
     justify-content: flex-end;
+    margin-right: 125px;
+    align-items: center;
+}
+
+.NewPig {
+    width: 72px;
+    height: 72px;
 }
 
 .PigText {
     font-size: 18px;
-    line-height: 26px; 
+    line-height: 25px; 
     color: rgba(227, 184, 115, 1);
-    width: 344px;
-    padding-right: 120px;
-    margin-left: 25px;
+    width: 344px;      
+    margin: 0px 0px 0px 25px;  
 }
 
 .fantacy {
@@ -797,8 +799,6 @@ span {
     z-index: 1;
     display: flex;
     align-items: center;
-    /* background-color: #000000; */
-    /* background-color: rgba(0, 0, 0, .7) */
 }
 
 .fantacy-overlay {
@@ -822,8 +822,7 @@ span {
     font-size: 27px;
     line-height: 37px;
     color: rgba(227, 184, 115, 1);
-    padding-right: 100px;
-   
+    padding-right: 100px;   
 }
 
 .FantasyText {
@@ -903,7 +902,6 @@ span {
 
 .F9C4 {
     grid-area: F9C4;
-    /* height: 39px; */
     width: 354px;
 }
 
@@ -1029,8 +1027,7 @@ span {
     flex-direction: column;
     align-items: center;
     position: relative;
-    z-index: 1;
-    
+    z-index: 1;    
 }
 
 .question {
