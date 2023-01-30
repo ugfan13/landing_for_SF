@@ -1135,3 +1135,102 @@ span {
 
 .clients :nth-child(2) {left: 0;}
 
+.last {
+    height: 960px;
+    background-image: url("../images/image10.jpg");
+    position: relative;
+}
+
+.lastSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    height: 445px;
+    width: 883px;
+    margin-top: -222px;
+}
+
+.QuestionTitle {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.NamePhone {
+    display: flex;
+    align-items: center;
+}
+
+.question button {
+    align-self: center;
+    margin-right: 0px;    
+}
+
+.NamePhone img {
+    width: 231px;
+}
+
+.NamePhone p {
+    margin: 0;
+}
+
+.NamePhone div {
+    margin: 45px 29px 0px 29px;
+}
+
+.questionBlock {
+    width: 516px;
+    margin-top: 48px;
+}
+
+.questionBlock p {
+    margin: 0;
+}
+
+.questionBlock img {
+    width: 516px;
+}
+
+.lastSection-overlay {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, .8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.AdressTitle {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 52px;
+    color: #E3B873;
+}
+
+.VectorLetter {
+    margin: 26px;
+}
+
+.Map {
+    margin: 25px;
+}
+
+.footer {
+    background-color: black;  
+    position: relative;
+    bottom: 0px;
+    z-index: 4;
+}
