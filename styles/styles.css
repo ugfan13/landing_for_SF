@@ -770,44 +770,10 @@ span {
     font-size: 14px;
     line-height: 22px;
 }
-
+ 
 .pig {
     display: flex;
     justify-content: flex-end;
-    margin-right: 135px;
-    /* margin-left: 25px; */
-    margin-top: 20px;
-}
-
-.PigPicture {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.PigEllipse {
-    position: relative;
-    z-index: 2;
-}
-
-.PigPig {
-    position: absolute;
-    z-index: 3; 
-    margin-bottom: 20px;
-}
-
-.PigDollar {
-    position: absolute;
-    z-index: 3; 
-    margin-bottom: 20px;
-}
-
-.PigSmile {
-    position: absolute;
-    z-index: 3;
-    margin-left: 20px;
-    margin-bottom: 25px;
 }
 
 .PigText {
@@ -816,9 +782,7 @@ span {
     color: rgba(227, 184, 115, 1);
     width: 344px;
     padding-right: 120px;
-    /* margin-right: 135px; */
     margin-left: 25px;
-    /* margin-top: 25px; */
 }
 
 .fantacy {
@@ -952,7 +916,8 @@ span {
     margin-top: 110px;
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center; 
+    align-items: center;   
 }
 
 .TitleClients {
@@ -963,91 +928,9 @@ span {
 }
 
 .Hand {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
     margin-top: 20px;
-}
-
-.HandUp {
-    position: absolute;
-    margin-top: -25px;
-    margin-left: -5px;    
-}
-
-.HandEll1U {
-    position: absolute;
-    margin-top: -27px;
-    margin-left: 10px;
-}
-
-.HandEll2U {
-    position: absolute;
-    margin-top: -25px;
-    margin-left: 14px;
-}
-
-.HandEll3U {
-    position: absolute;
-    margin-top: -23px;
-    margin-left: 18px;
-}
-
-.HandUpRight {
-    position: absolute;
-    margin-top: -22px;
-    margin-left: 20px;
-}
-
-.HandMain {
-    position: absolute;
-}
-
-.HandDo {
-    position: absolute;
-    margin-top: 21px;
-    margin-left: 10px;    
-}
-
-.HandEll1D {
-    position: absolute;
-    margin-top: 27px;
-    margin-left: -5px;
-}
-
-.HandEll2D {
-    position: absolute;
-    margin-top: 26px;
-    margin-left: -10px;
-}
-
-.HandEll3D {
-    position: absolute;
-    margin-top: 24px;
-    margin-left: -15px;
-}
-
-.HandEll4D {
-    position: absolute;
-    margin-top: 21px;
-    margin-left: -20px;
-}
-
-.HandDoLeft {
-    position: absolute;
-    margin-top: 16px;
-    margin-left: -25px;
-}
-
-.HandLineLeft {
-    position: absolute;
-    margin-left: 80px;
-}
-
-.HandLineRight {
-    position: absolute;    
-    margin-left: -80px;
+    width: 114px;
+    height: 28px;
 }
 
 .TextClients {
