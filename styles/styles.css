@@ -1114,3 +1114,130 @@ span {
     bottom: 0px;
     z-index: 4;
 }
+
+@media screen and (max-width: 1300px) {
+    .project-photo img {
+        width: 543px;
+        height: 385px;
+    }
+
+    .clients1 {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .header-navigation {
+        display: block;        
+    }    
+
+    .header {
+         
+        position: relative;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects-contant {
+        display: flex;
+        flex-direction: column;            
+    }
+
+    .project-options {        
+        margin-top: 5px;        
+    }
+
+    .text-project {
+        font-size: 12px;
+        line-height: 20px;           
+    }
+
+    .option:nth-child(odd) {        
+        margin-right: 12px;
+        margin-top: 12px;
+    }
+    
+    .option:nth-child(even) {
+        margin-top: 12px;
+    }
+
+    .project-photo img {
+        width: 272px;
+        height: 193px;
+    }
+
+    .video {
+        
+        margin-top: -126px;
+        width: 768px;
+        height: 412px;
+    }
+
+    .video-example {
+        width: 768px;
+        height: 412px;
+    }
+
+    .video-background {
+        width: 768px;
+        height: 412px;
+    }
+
+    .RepairPhoto-main img {
+        width: 132px;
+        height: 114px;
+    }
+
+    .RepairPhoto-main {
+        margin: 5px;
+    }
+    
+    .RepairPhoto-block {
+        margin-left: 12px;
+        width: 132px;
+        height: 114px;
+    }
+
+    .common {
+        height: 1220px;
+    }
+
+    .common-block {
+        
+        flex-direction: column; 
+    }
+
+    .FantacyPhoto3 {
+        display: none;
+    }
+
+    .FantacyPhoto4 {
+        display: none;
+    }
+
+    .FantacyTextBlock {
+        margin-right: 15px;
+    }
+
+    .clients {
+        height: 1607px;
+        
+    }
+
+    .BlockClients {
+        display: flex;
+        flex-direction: column; 
+        margin: 10px 5px;
+    }
+
+    .question {
+        
+        width: 768px;
+    
+    }
+
+    .Map {
+        width: 768px;
+    }
+}
