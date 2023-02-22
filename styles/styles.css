@@ -1116,6 +1116,10 @@ span {
 }
 
 @media screen and (max-width: 1300px) {
+    .container {
+        max-width: 1300px;        
+    }
+
     .project-photo img {
         width: 543px;
         height: 385px;
@@ -1124,9 +1128,7 @@ span {
     .clients1 {
         margin-left: 20px;
     }
-}
 
-@media screen and (max-width: 1300px) {
     .header-navigation {
         display: block;        
     }    
@@ -1137,6 +1139,10 @@ span {
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;        
+    }
+
     .header-content {
         display: block; 
         height: auto;
