@@ -543,7 +543,7 @@ span {
 
 .apply2 {
     position: absolute;
-    z-index: 3; 
+    z-index: 3;
 }
 
 .Repair {
@@ -551,15 +551,6 @@ span {
     position: relative;
     justify-content: center;
     align-items: center;
-}
-
-.RepairImage {
-    margin: 10px;
-}
-
-.RepairLine {
-    height: 2px;
-    width: 32px;
 }
 
 .RepairPhoto {
