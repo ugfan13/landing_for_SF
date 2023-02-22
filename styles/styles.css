@@ -245,6 +245,8 @@ span {
     font-size: 13px;
     line-height: 26px;    
     color: rgba(149, 149, 149, 1);
+    list-style: inside;
+    margin-left: 34px;
 }
 
 .hero-button {
