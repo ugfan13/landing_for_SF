@@ -447,11 +447,7 @@ span {
  }
 
  .name {
-    grid-area: AA;
-    margin: 0;
-    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
-    font-style: normal;
-    font-weight: 400;
+    grid-area: AA;    
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5); 
@@ -459,26 +455,15 @@ span {
 
  .WhatName {
     grid-area: BA;
-    margin: 0;
-    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 22px;
     color: rgba(54, 54, 54, 1);
- }
-
- .NameLine1 {
-    grid-area: CA;
-    margin: 0;
+    border: none;
+    border-bottom: solid 1px rgba(54, 54, 54, 0.5);    
  }
 
  .phone {
-    grid-area: AB;
-    margin: 0;
-    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
-    font-style: normal;
-    font-weight: 400;
+    grid-area: AB;    
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
@@ -486,19 +471,12 @@ span {
 
  .WhatPhone {
     grid-area: BB;
-    margin: 0;
-    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 22px;
     color: rgba(54, 54, 54, 1);
- }
-
- .NameLine2 {
-    grid-area: CB;
-    margin: 0;
- }
+    border: none;
+    border-bottom: solid 1px rgba(54, 54, 54, 0.5);
+ } 
 
  .NameButton {
     grid-area: AC;
@@ -675,31 +653,33 @@ span {
     margin-top: 25px;    
     font-size: 13px;
     line-height: 21px;
-    color: rgba(255, 255, 255, 0.5);    
+    color: rgba(255, 255, 255, 0.75);    
  }
 
  .WhatName-com {    
     margin: 0;
     font-size: 14px;
-    line-height: 23px;   
- }
-
- .NameLine-com {    
-    margin: 0;
- }
+    line-height: 23px;
+    border: none;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    background-color: #000000;    
+ } 
 
  .phone-com {
     margin: 0;
     margin-top: 42px;
     font-size: 13px;
     line-height: 21px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
  }
 
  .WhatPhone-com {    
     margin: 0;    
     font-size: 14px;
-    line-height: 22px;    
+    line-height: 22px;
+    border: none;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    background-color: #000000;     
  }
 
   .email-com {
@@ -707,13 +687,16 @@ span {
     margin-top: 42px;
     font-size: 13px;
     line-height: 21px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
  }
 
  .WhatEmail-com {    
     margin: 0;    
     font-size: 14px;
-    line-height: 22px;    
+    line-height: 22px; 
+    border: none;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    background-color: #000000;     
  }
 
  .NameButton-com {
@@ -1048,7 +1031,11 @@ span {
     margin-right: 0px;    
 }
 
-.NamePhone img {
+.PhoneBlock input {
+    width: 231px;
+}
+
+.NameBlock input {
     width: 231px;
 }
 
@@ -1065,12 +1052,21 @@ span {
     margin-top: 48px;
 }
 
-.questionBlock p {
-    margin: 0;
-}
+.question-text {
+    margin: 0;    
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.75);
+ }
 
-.questionBlock img {
-    width: 516px;
+.question-inp {    
+    margin: 0; 
+    width: 516px;   
+    font-size: 14px;
+    line-height: 22px; 
+    border: none;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    background-color: #000000;  
 }
 
 .lastSection-overlay {
