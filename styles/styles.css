@@ -269,10 +269,9 @@ span {
 .projects-contant {
     display: grid; 
     grid-template-columns: 656px 679px;
-    grid-template-rows: 123px 60px 482px 118px 40px;
+    grid-template-rows: 183px 482px 118px 40px;
     grid-template-areas: 
-    "F A"
-    "F B"
+    "F A"    
     "C D"
     "E E"
     "G G";    
@@ -325,17 +324,16 @@ span {
     padding: 0px;
 }
 
+.project-city-discription :first-child {
+    border-bottom: solid 1px;
+}
+
 .project-photo {
     grid-area: D;
 }
 
 .project-temp { 
     grid-area: F;
-}
-
-.project-pointer{
-    grid-area: B;
-    margin-top: 7px;
 }
 
 .lines_strokes {
