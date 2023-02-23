@@ -27,6 +27,11 @@ body * {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;        
+    }
+}
 .button {
   background: #E3B873;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -153,24 +158,33 @@ body * {
 
 .text-type {
     margin-top: 76px;
-    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    text-transform: uppercase;
-    color: #000000;
+    color: #000000;    
 }
 
-.RepairPhoto-text-title {
-    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: 400;
+@media screen and (max-width: 768px) {
+    .text-type {
+        margin-top: 30px;        
+    }
+}
+
+
+.RepairPhoto-text-title {    
     font-size: 18px;
     line-height: 25px;
     color: #000000;
     margin-left: 34px;
     padding-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .RepairPhoto-text-title {    
+        font-size: 14px;
+        line-height: 21px;        
+        margin-left: 10px;
+        padding-top: 15px;
+    }
 }
 
 span {
@@ -235,15 +249,20 @@ span {
     color: #000000;    
 }
 
-.RepairPhoto-text {
-    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif; ;
-    font-style: normal;
-    font-weight: 400;
+.RepairPhoto-text {    
     font-size: 13px;
     line-height: 26px;    
     color: rgba(149, 149, 149, 1);
     list-style: inside;
     margin-left: 34px;
+}
+
+@media screen and (max-width: 768px) {
+    .RepairPhoto-text {    
+        font-size: 11px;
+        line-height: 20px;        
+        margin-left: 10px;
+    }
 }
 
 .hero-button {
@@ -378,7 +397,7 @@ span {
 }
 
 .repair {
-    height: 1466px;
+    height: 1200px;
 }
 
 .common-video {
@@ -426,6 +445,13 @@ span {
     height: 2px;
  }
 
+ @media screen and (max-width: 768px){
+    .video-line {
+        margin-top: 20px;
+    }
+ }  
+
+
  .text-in-video {
     margin-top: 34px;
     width: 681px;
@@ -442,6 +468,15 @@ span {
     "BA A0 BB B0 AC"
     "CA A0 CB B0 AC"
  }
+
+ @media screen and (max-width: 768px){
+    .insert-name {
+        display: grid;
+        margin-top: 50px;
+        grid-template-columns: 150px 38px 150px 38px 150px;
+               
+     }
+ }  
 
  .name {
     grid-area: AA;    
@@ -572,6 +607,12 @@ span {
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+    .ButtonRepair {
+        margin-left: 10px;       
+    }
+}
+
 .common {
     height: 920px;
 }
@@ -580,7 +621,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 59px;
+    margin-top: 250px;
 }
 
 .common-left {
@@ -594,6 +635,13 @@ span {
     margin-top: -50px;
     position: relative;
     z-index: -1;
+}
+
+@media screen and (max-width: 768px){
+    .common-left {     
+        height: 550px;        
+        margin-top: -100px;        
+    }
 }
 
 .common-left-container {
@@ -639,6 +687,13 @@ span {
     background-color: #000000;
     width: 506px;
     height: 509px;
+}
+
+@media screen and (max-width: 768px) {
+    .common-right {        
+        margin-top: 20px;
+        margin-left: 0;        
+    }
 }
 
 .common-right-text {
@@ -726,29 +781,6 @@ span {
     margin-top: 10px;
 }
 
-/*.apply-com {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.apply1-com {
-    position: relative;
-    z-index: 2; 
-}
-
-.apply2-com {
-    position: absolute;
-    z-index: 3; 
-}
-
-.PersonalData-text-com {
-    margin-left: 9px; 
-    font-size: 14px;
-    line-height: 22px;
-} */
-
 .fakeblack{
     display: inline-flex;    
     width: 18px;
@@ -827,11 +859,28 @@ span {
     margin-right: 77px;
 }
 
+@media screen and (max-width: 768px){
+    .FantacyTextBlock {
+        padding-top: 30px;
+        padding-left: 20px;
+        width: 330px;
+        margin-right: 50px;
+    }
+}
+
 .titleFantacy {    
     font-size: 27px;
     line-height: 37px;
     color: rgba(227, 184, 115, 1);
     padding-right: 100px;   
+}
+
+@media screen and (max-width: 768px) {
+    .titleFantacy {    
+        font-size: 23px;
+        line-height: 29px;        
+        padding-right: 0px;   
+    }
 }
 
 .FantasyText {
@@ -844,6 +893,12 @@ span {
 .FantasyText:first-of-type {
     color: rgba(227, 184, 115, 1);
     margin-top: 47px;
+}
+
+@media screen and (max-width: 768px) {
+    .FantasyText:first-of-type {        
+        margin-top: 25px;
+    }
 }
 
 .FantacyPhotoBlock {
@@ -861,6 +916,12 @@ span {
     "F9A4 F9B F9C4";
 }
 
+@media screen and (max-width: 768px) {
+    .FantacyPhotoBlock {
+        grid-template-columns: 354px 0px 0px;       
+    }
+}
+
 .F9A {
     grid-area: F9A;
     height: 71px;
@@ -873,6 +934,13 @@ span {
     width: 354px;
 }
 
+@media screen and (max-width: 768px){
+    .FantacyPhoto1 {        
+        height: 90%;
+        width: 90%;
+    }
+}
+
 .F9A3 {
     grid-area: F9A3;
     height: 39px;
@@ -883,6 +951,13 @@ span {
     grid-area: F9A4;
     height: 349px;
     width: 354px;
+}
+
+@media screen and (max-width: 768px){
+    .FantacyPhoto2 {        
+        height: 90%;
+        width: 90%;
+    }
 }
 
 .F9B {
@@ -1139,39 +1214,37 @@ span {
 
 @media screen and (max-width: 1300px) {
     .container {
-        max-width: 1300px;        
+        max-width: 1200px;        
     }
+}   
 
-    .project-photo img {
-        width: 543px;
-        height: 385px;
-    }
-
-    .clients1 {
-        margin-left: 20px;
+@media screen and (max-width: 768px) {
+    .header-content {
+        display: flex; 
+        justify-content: space-between;
+        height: auto;
     }
 
     .header-navigation {
-        display: block;        
-    }    
-
-    .header {         
-        position: relative;        
+        flex-wrap: wrap;
+        justify-content: center;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 768px;        
+    
+    .header-navigation_item {
+        margin: 10px;
     }
 
-    .header-content {
-        display: block; 
-        height: auto;
+    .hero {        
+        height: 350px;
+        padding-top: 20px;        
     }
 
     .main-head {
         right: auto;
+    }
+
+    .project-city {        
+        top: 20px;        
     }
 
     .projects-contant {
@@ -1179,12 +1252,18 @@ span {
         flex-direction: column;            
     }
 
+    .project-title {
+        width: auto;
+        height: auto;
+        margin-bottom: 0;
+    }
+
     .project-options {        
         margin-top: 5px;        
     }
 
     .project-photo {
-        margin-top: 120px;        
+        margin-top: 40px;              
     }
 
     .Monitoring {        
@@ -1206,29 +1285,29 @@ span {
     }
 
     .project-photo img {
-        width: 272px;
-        height: 193px;
+        width: auto;
+        height: auto;
     }
 
     .video {        
         margin-top: -126px;
-        width: 768px;
+        width: 720px;
         height: 412px;
     }
 
     .video-example {
-        width: 768px;
+        width: 720px;
         height: 412px;
     }
 
     .video-background {
-        width: 768px;
+        width: 720px;
         height: 412px;
     }
 
     .RepairPhoto-main img {
-        width: 132px;
-        height: 114px;
+        width: 90%;
+        height: 90%;
     }
 
     .RepairPhoto-main {
@@ -1236,18 +1315,20 @@ span {
     }
     
     .RepairPhoto-block {
+        align-items: center;
         margin-left: 12px;
-        width: 132px;
-        height: 114px;
+        width: 80%;
+        height: 55%;
     }
 
     .common {
-        height: 1220px;
+        height: 1075px;
     }
 
     .common-block {        
-        flex-direction: column; 
-    }
+        flex-direction: column;
+        margin-top: 0px; 
+    } 
 
     .FantacyPhoto3 {
         display: none;
@@ -1256,10 +1337,7 @@ span {
     .FantacyPhoto4 {
         display: none;
     }
-
-    .FantacyTextBlock {
-        margin-right: 15px;
-    }
+    
 
     .clients {
         height: 1607px;        
@@ -1272,10 +1350,10 @@ span {
     }
 
     .question {        
-        width: 768px;    
+        width: 720px;    
     }
 
     .Map {
-        width: 768px;
+        width: 720px;
     }
 }
